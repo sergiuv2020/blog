@@ -28,7 +28,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install --upgrade mkdocs mkdocs-material mkdocs-awesome-pages-plugin
-    - name:  deploy
+    - name:  Deploy to master
       run: |
          git remote rm origin
          git remote add origin "https://x-access-token:${{ secrets.repo_token }}@github.com/sergiuv2020/sergiuv2020.github.io.git"
