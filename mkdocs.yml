@@ -1,8 +1,8 @@
 nav:
   - Home: index.md
   - '2016':
-    - 'Chef cooking': blog/2016/2016-10-29-chef-cooking.md
-    - 'Dynamic Nginx': blog/2016/2016-10-15-dynamic-nginx.md 
+    - 'Chef cooking': 2016/2016-10-29-chef-cooking.md
+    - 'Dynamic Nginx': 2016/2016-10-15-dynamic-nginx.md
 theme:
   language: en
   pallete:
