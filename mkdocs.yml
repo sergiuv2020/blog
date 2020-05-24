@@ -1,0 +1,42 @@
+pages:
+  - Home: index.md
+  - '2016':
+    - 'Chef cooking': blog/2016/2016-10-29-chef-cooking.md
+    - 'Dynamic Nginx': blog/2016/2016-10-15-dynamic-nginx.md 
+theme:
+  language: en
+  pallete:
+    primary: blue
+    accent: lightp purple
+  features:
+    - instant
+  logo: images/profile.jpg
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/git-alt
+  name: material
+plugins:
+  - search:
+      prebuild_index: true
+  - awesome-pages
+site_name: "Day to day struggles of an automation engineer"
+site_author: Sergiu Vidrascu
+site_description: >-
+  DevOps Stories, Innovation, Gotchas, Tips and Tricks, Home Automation and other crazy things
+copyright: Copyright &copy; 2016 - 2020 Sergiu Vidrascu
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+extra:
+  disqus: svidrascu
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/sergiuv2020
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/sergiuv2020
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/sergiuv2020
