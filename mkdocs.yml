@@ -1,5 +1,5 @@
 nav:
-  - Home: index.md
+  - Automation is amazing: index.md
   - '2016':
     - 'Chef cooking': 2016/2016-10-29-chef-cooking.md
     - 'Dynamic Nginx': 2016/2016-10-15-dynamic-nginx.md
