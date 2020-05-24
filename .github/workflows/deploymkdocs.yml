@@ -32,4 +32,4 @@ jobs:
       run: |
          git remote rm origin
          git remote add origin "https://x-access-token:${{ secrets.repo_token }}@github.com/sergiuv2020/sergiuv2020.github.io.git"
-         mkdocs gh-deploy -b master
+         mkdocs gh-deploy -b master --force
