@@ -29,7 +29,7 @@ jobs:
       with:
         script: |
           git remote rm origin
-          git remote add origin "https://x-access-token:${{ secret.repo_token }}@github.com/sergiuv2020/sergiuv2020.github.io.git"
+          git remote add origin "https://x-access-token:${{ secrets.repo_token }}@github.com/sergiuv2020/sergiuv2020.github.io.git"
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
