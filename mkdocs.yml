@@ -1,4 +1,4 @@
-pages:
+nav:
   - Home: index.md
   - '2016':
     - 'Chef cooking': blog/2016/2016-10-29-chef-cooking.md
