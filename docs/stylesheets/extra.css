@@ -1,0 +1,11 @@
+main.md-main {
+  background-image: url("../images/clouds.jpg");
+}
+
+div.md-main__inner.md-grid {
+  background-color: white;
+}
+
+div.md-sidebar.md-sidebar--primary {
+  background-color: white;
+}
